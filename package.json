@@ -1,0 +1,23 @@
+{
+  "name": "postman2httpyac",
+  "version": "0.1.0",
+  "description": "CLI to convert postman collection to httpyac file",
+  "main": "parse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified. SHAME! SHAME! SHAME!\" && exit 1",
+    "run": "node parse.js"
+  },
+  "keywords": [
+    "postman",
+    "cli",
+    "httpyac",
+    "collection",
+    "convert",
+    "import"
+  ],
+  "author": "Tobias Bielohlawek",
+  "license": "ISC",
+  "dependencies": {
+    "postman-collection": "^4.1.0"
+  }
+}
